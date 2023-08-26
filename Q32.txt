@@ -1,0 +1,19 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() 
+{
+    int div, i = 0;
+    
+    cout << "Input an integer less than 100: ";
+    cin >> div;
+    
+    while(i * div + 3 < 100)
+    {
+        cout << i * div + 3 << endl;
+        i++;
+    }
+
+    
+    return 0;
+}

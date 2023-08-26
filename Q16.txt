@@ -1,0 +1,25 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int ToTal;
+    
+    cin >> ToTal;
+    
+    cout << ToTal / 100 << " notes of 100$" << endl;
+    ToTal %= 100;
+    cout << ToTal / 50 << " notes of 50$" << endl;
+    ToTal %= 50;
+    cout << ToTal / 20 << " notes of 20$" << endl;
+    ToTal %= 20;
+    cout << ToTal / 10 << " notes of 10$" << endl;
+    ToTal %= 10;
+    cout << ToTal / 5 << " notes of 5$" << endl;
+    ToTal %= 5;
+    cout << ToTal / 2 << " notes of 2$" << endl;
+    ToTal %= 2;
+    cout << ToTal / 1 << " notes of 1$";
+    
+    return 0;
+}
